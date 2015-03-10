@@ -13,136 +13,136 @@ Chinese
 -------
  - TcChinese
    class TcChinese:
-        1. È¡µÃ¶à¸öºº×ÖµÄÊ××ÖÄ¸
-        2. È¡µÃ¶à¸öºº×ÖµÄÈ«²¿Æ´Òô
-        3. »ìºÏ×Ö·ûÊ±×ª»»ÖĞ²»¹ıÂËÓ¢Êı·ûºÅµÈ
+        1. å–å¾—å¤šä¸ªæ±‰å­—çš„é¦–å­—æ¯
+        2. å–å¾—å¤šä¸ªæ±‰å­—çš„å…¨éƒ¨æ‹¼éŸ³
+        3. æ··åˆå­—ç¬¦æ—¶è½¬æ¢ä¸­ä¸è¿‡æ»¤è‹±æ•°ç¬¦å·ç­‰
 
 Core
 ----
  - TcClasses
-   class TcPlayer: Íæ¼ÒĞÅÏ¢Àà,³£ÓÃÔÚC/SÖĞµÄ¿Í»§¶ËÓÃ»§ĞÅÏ¢±£´æ
-   class TcInvoke: Ó³ÉäÖ´ĞĞ¶ÔÏóÀà
-   class TcDBFields: Êı¾İ¸ñÊ½×ª»»Àà,ÓÃÓÚkey=value¸ñÊ½Êı¾İ¶ÁÈ¡
+   class TcPlayer: ç©å®¶ä¿¡æ¯ç±»,å¸¸ç”¨åœ¨C/Sä¸­çš„å®¢æˆ·ç«¯ç”¨æˆ·ä¿¡æ¯ä¿å­˜
+   class TcInvoke: æ˜ å°„æ‰§è¡Œå¯¹è±¡ç±»
+   class TcDBFields: æ•°æ®æ ¼å¼è½¬æ¢ç±»,ç”¨äºkey=valueæ ¼å¼æ•°æ®è¯»å–
 
  - TcCommon
-   function initQS: È«¾Ö×Ö·û¼¯¶ÔÏó
-   function QS: ºº×Ö×Ö·û¼¯×ª»»
-   function max/min: ×î´ó×îĞ¡ÅĞ¶Ï
-   function iif: ·ÖÖ§Âß¼­ÅĞ¶Ï
-   function MsgBox: ÏÔÊ¾¼òÒ×ÎÄ±¾ĞÅÏ¢¶Ô»°¿ò
-   function debug_out: Êä³ödebugÈÕÖ¾ĞÅÏ¢(µ½¿ØÖÆÌ¨»òÎÄ¼ş)
+   function initQS: å…¨å±€å­—ç¬¦é›†å¯¹è±¡
+   function QS: æ±‰å­—å­—ç¬¦é›†è½¬æ¢
+   function max/min: æœ€å¤§æœ€å°åˆ¤æ–­
+   function iif: åˆ†æ”¯é€»è¾‘åˆ¤æ–­
+   function MsgBox: æ˜¾ç¤ºç®€æ˜“æ–‡æœ¬ä¿¡æ¯å¯¹è¯æ¡†
+   function debug_out: è¾“å‡ºdebugæ—¥å¿—ä¿¡æ¯(åˆ°æ§åˆ¶å°æˆ–æ–‡ä»¶)
 
  - TcString
-   class TcString: ×Ö·û´®¹¦ÄÜÔöÇ¿ÓëÀ©Õ¹
-   class TcStringList: ×Ö·û´®ÁĞ±í¹¦ÄÜÔöÇ¿ÓëÀ©Õ¹
+   class TcString: å­—ç¬¦ä¸²åŠŸèƒ½å¢å¼ºä¸æ‰©å±•
+   class TcStringList: å­—ç¬¦ä¸²åˆ—è¡¨åŠŸèƒ½å¢å¼ºä¸æ‰©å±•
 
  - TcUtils
-   class TcUtils: ³£ÓÃĞ¡¹¦ÄÜ×ÛºÏº¯Êı¼¯
+   class TcUtils: å¸¸ç”¨å°åŠŸèƒ½ç»¼åˆå‡½æ•°é›†
  
  - TcTuple
-   class TcTuple: ¼òµ¥µÄTuple(Ôª×é)Ä£°åÀà,Ìá¹©2~10¸öÀàĞÍ²ÎÊıµÄÄ£°å
+   class TcTuple: ç®€å•çš„Tuple(å…ƒç»„)æ¨¡æ¿ç±»,æä¾›2~10ä¸ªç±»å‹å‚æ•°çš„æ¨¡æ¿
 
  - TcSingleton
-   class TcSingleton: ÓÃÖ¸ÕëÊµÏÖµÄµ¥ÀıÄ£Ê½µÄÄ£°æÀà
+   class TcSingleton: ç”¨æŒ‡é’ˆå®ç°çš„å•ä¾‹æ¨¡å¼çš„æ¨¡ç‰ˆç±»
 
  - TcVariantMapTableModel
-   class TcVariantMapTableModel: ÒÔQVariantMap×÷ÎªÊı¾İĞĞµÄmodel
+   class TcVariantMapTableModel: ä»¥QVariantMapä½œä¸ºæ•°æ®è¡Œçš„model
 
  - TcFunctionalSortFilterProxyModel
    class TcFunctionalSortFilterProxyModel 
-                    ÒÀËùÉè¹ıÂË²ÎÊı(QVariantMap)À´Ê¹ÓÃÒÑÉèÂËº¯Êı½øĞĞ¹ıÂËµÄÄ£ĞÍ
+                    ä¾æ‰€è®¾è¿‡æ»¤å‚æ•°(QVariantMap)æ¥ä½¿ç”¨å·²è®¾æ»¤å‡½æ•°è¿›è¡Œè¿‡æ»¤çš„æ¨¡å‹
 File
 ----
  - TcDir
-   class TcDir: ¿ÉÒÔ¸´ÖÆÄ¿Â¼Ê÷µÄÀà,Ò²¿ÉÒÔ²éÕÒÄ¿Â¼ÄÚËùÓĞµÄÎÄ¼ş
+   class TcDir: å¯ä»¥å¤åˆ¶ç›®å½•æ ‘çš„ç±»,ä¹Ÿå¯ä»¥æŸ¥æ‰¾ç›®å½•å†…æ‰€æœ‰çš„æ–‡ä»¶
 
  - TcFile
-   class TcFile: ÎÄ¼ş²Ù×÷³£ÓÃ´¦ÀíÀà
+   class TcFile: æ–‡ä»¶æ“ä½œå¸¸ç”¨å¤„ç†ç±»
 
  - TcJson
-   class TcJSONObject: ¼æÈİQt4.xµÄJSONÎÄ¼şÉú³ÉºÍ½âÎöÀà
+   class TcJSONObject: å…¼å®¹Qt4.xçš„JSONæ–‡ä»¶ç”Ÿæˆå’Œè§£æç±»
 
  - TcLog
-   class TcLog: ¼òµ¥µÄÎÄ±¾ÎÄ¼şÊä³öÈÕÖ¾Àà
+   class TcLog: ç®€å•çš„æ–‡æœ¬æ–‡ä»¶è¾“å‡ºæ—¥å¿—ç±»
 
  - TcMSExcel
-   class TcMSExcel: Í¨¹ıOLE·½Ê½²Ù×÷Microsoft Excel
+   class TcMSExcel: é€šè¿‡OLEæ–¹å¼æ“ä½œMicrosoft Excel
 
  - TcFileIO
-   class TcFileIO: Ò»Ğ©ÎÄ¼ş¸´ÖÆºÍÌáÈ¡¹¦ÄÜµÄÀà
+   class TcFileIO: ä¸€äº›æ–‡ä»¶å¤åˆ¶å’Œæå–åŠŸèƒ½çš„ç±»
 
  - TcExcelReader
-   class TcExcelReader: Í¨¹ıOLE·½Ê½¶ÁÈ¡Excel(ÒªÇóÒÑ°²×°Excel»òWPSOffice)
+   class TcExcelReader: é€šè¿‡OLEæ–¹å¼è¯»å–Excel(è¦æ±‚å·²å®‰è£…Excelæˆ–WPSOffice)
 
 Gui
 ---
  - TcClickLabel
-   class TcClickLabel: ¿É·¢³öclicked()ĞÅºÅµÄLabel²¿¼ş
+   class TcClickLabel: å¯å‘å‡ºclicked()ä¿¡å·çš„Labeléƒ¨ä»¶
 
  - TcDateEdit
-   class TcDateEdit: ÔÊĞíÎª¿ÕµÄÈÕÆÚÑ¡Ôñ²¿¼ş
+   class TcDateEdit: å…è®¸ä¸ºç©ºçš„æ—¥æœŸé€‰æ‹©éƒ¨ä»¶
 
  - TcFlowLayout
-   class TcFlowLayout: Á÷Ê½²¼¾ÖÀà
+   class TcFlowLayout: æµå¼å¸ƒå±€ç±»
 
  - TcGlowEffect
-   class TcGlowEffect: ·¢¹âĞ§¹ûµÄQGraphicsEffect
+   class TcGlowEffect: å‘å…‰æ•ˆæœçš„QGraphicsEffect
 
  - TcGuiUtils:
-   class TcCursorWait: µÈ´ı¹â±êµÄÉèÖÃºÍ×Ô¶¯»Ö¸´´¦ÀíÀà
-   class TcCursorBusy: ÍË³ö¿éÊ±Ê¹¹â±ê×Ô¶¯»Ö¸´ÎªÔ­ÏÈ¹â±êĞÎ×´
+   class TcCursorWait: ç­‰å¾…å…‰æ ‡çš„è®¾ç½®å’Œè‡ªåŠ¨æ¢å¤å¤„ç†ç±»
+   class TcCursorBusy: é€€å‡ºå—æ—¶ä½¿å…‰æ ‡è‡ªåŠ¨æ¢å¤ä¸ºåŸå…ˆå…‰æ ‡å½¢çŠ¶
 
  - TcLineEdit
-   class TcLineEdit: ÔöÇ¿ĞÍLineEdit²¿¼ş,¿É·¢³ödoubleClicked()ĞÅºÅ,²¢ÇÒ¿ÉÊ¹±à¼­
-                   ºÍ·Ç±à¼­×´Ì¬Ê±ÏÔÊ¾²»Í¬µÄ×Ö·û
+   class TcLineEdit: å¢å¼ºå‹LineEditéƒ¨ä»¶,å¯å‘å‡ºdoubleClicked()ä¿¡å·,å¹¶ä¸”å¯ä½¿ç¼–è¾‘
+                   å’Œéç¼–è¾‘çŠ¶æ€æ—¶æ˜¾ç¤ºä¸åŒçš„å­—ç¬¦
 
  - TcMarqueeLabel
-   class TcMarqueeLabel: ÅÜÂíµÆĞ§¹ûµÄLabel,¿É×óÓÒ»òÉÏÏÂ¹ö¶¯£¬¿ÉÉèÖÃËÙ¶È
+   class TcMarqueeLabel: è·‘é©¬ç¯æ•ˆæœçš„Label,å¯å·¦å³æˆ–ä¸Šä¸‹æ»šåŠ¨ï¼Œå¯è®¾ç½®é€Ÿåº¦
 
  - TcHeaderSetupDialog
-   class TcHeaderSetupDialog: ÉèÖÃQTreeWidget±êÌâµÄ¶Ô»°¿ò
+   class TcHeaderSetupDialog: è®¾ç½®QTreeWidgetæ ‡é¢˜çš„å¯¹è¯æ¡†
 
  - TcSortPaginationTableView
-   class TcSortPaginationTableView: ¿ÉÅÅĞòºÍ·ÖÒ³µÄTableView
+   class TcSortPaginationTableView: å¯æ’åºå’Œåˆ†é¡µçš„TableView
 
 Network
 -------
  - TcDownloadHttp
-   class TcDownload: HTTPÎÄ¼ş¶àÏß³ÌÏÂÔØÆ÷
-   class TcDownloadList: ÓÃÓÚ¹ÜÀíHTTPÎÄ¼ş¶àÏß³ÌÏÂÔØµÄÈİÆ÷
+   class TcDownload: HTTPæ–‡ä»¶å¤šçº¿ç¨‹ä¸‹è½½å™¨
+   class TcDownloadList: ç”¨äºç®¡ç†HTTPæ–‡ä»¶å¤šçº¿ç¨‹ä¸‹è½½çš„å®¹å™¨
  
  - TcSingleInstance
-   class TcSingleInstance: Ó¦ÓÃ³ÌĞòµ¥ÀıÊµÏÖÀà
+   class TcSingleInstance: åº”ç”¨ç¨‹åºå•ä¾‹å®ç°ç±»
 
  - TcUdp
-   class TcUdp: UDP Ğ­ÒéµÄÍ¨Ñ¶Æ÷
+   class TcUdp: UDP åè®®çš„é€šè®¯å™¨
 
 OS
 --
  - TcOS
-   class TcOS: ²Ù×÷ÏµÍ³Ïà¹ØµÄ²Ù×÷Àà
+   class TcOS: æ“ä½œç³»ç»Ÿç›¸å…³çš„æ“ä½œç±»
 
 Sql
 -----
  - TcMSSQL
-   static class function availableODBCDrivers: ¶ÁÈ¡¿ÉÓÃMSSQL ODBCÇı¶¯ºÍ°æ±¾ĞÅÏ¢
-   static class function ODBCDSN: ¹¹ÔìODBCÁ¬½Ó×Ö·û´®
+   static class function availableODBCDrivers: è¯»å–å¯ç”¨MSSQL ODBCé©±åŠ¨å’Œç‰ˆæœ¬ä¿¡æ¯
+   static class function ODBCDSN: æ„é€ ODBCè¿æ¥å­—ç¬¦ä¸²
 
  - TcOracle
-   static class function availableODBCDrivers: ¶ÁÈ¡¿ÉÓÃOracle ODBCÇı¶¯ºÍ°æ±¾ĞÅÏ¢
-   static class function ODBCDSN: ¹¹ÔìODBCÁ¬½Ó×Ö·û´®
+   static class function availableODBCDrivers: è¯»å–å¯ç”¨Oracle ODBCé©±åŠ¨å’Œç‰ˆæœ¬ä¿¡æ¯
+   static class function ODBCDSN: æ„é€ ODBCè¿æ¥å­—ç¬¦ä¸²
 
  - TcDataAccess
-   class TcDataAccessStatement: ÓÃÓÚ¹¹ÔìSQLÓï¾äµÄÊı¾İ·ÃÎÊÓï¾äÀà
-   class TcDataAccess: ÓÃÓÚ·ÃÎÊÊı¾İ¿âµÄÊı¾İ·ÃÎÊÀà
+   class TcDataAccessStatement: ç”¨äºæ„é€ SQLè¯­å¥çš„æ•°æ®è®¿é—®è¯­å¥ç±»
+   class TcDataAccess: ç”¨äºè®¿é—®æ•°æ®åº“çš„æ•°æ®è®¿é—®ç±»
 
  - TcDatabase
-   class TcDatabase: Êı¾İ¿â²Ù×÷Àà
+   class TcDatabase: æ•°æ®åº“æ“ä½œç±»
  
  - TcDBProcess
-   class TcDBProcess: Ò»¸öÊı¾İ¿â²Ù×÷Àà
+   class TcDBProcess: ä¸€ä¸ªæ•°æ®åº“æ“ä½œç±»
 
 Widget
 ------
  - TcTreeEx
-   class TcTreeEx: QTreeWidgetµÄÀ©Õ¹£¬¿ÉÖ±½Óµ¼³öµ½ Excel ÖĞ
+   class TcTreeEx: QTreeWidgetçš„æ‰©å±•ï¼Œå¯ç›´æ¥å¯¼å‡ºåˆ° Excel ä¸­
